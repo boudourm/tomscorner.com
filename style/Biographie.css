@@ -1,0 +1,425 @@
+
+/*============================================================
+						LAYOUT (GLOBAL)
+==============================================================*/
+body
+{
+	font-family: Times, 'Times New Roman', serif;
+	font-size:17px;
+	line-height:1.5;
+	/*font: 15px/1.5 Arial, Hevetica, sans-serif;*/
+	padding: 0;
+	margin: 0;
+}
+
+.bloque
+{
+	/*relative width*/
+	width: 90%;
+	/*Container moved to the middle*/
+	margin:auto; 	
+	overflow:hidden;
+	text-align: center;
+}
+	#entete
+	{
+		margin-top : -30px ;
+	}
+	
+	/*============================================================
+							HEADER
+	==============================================================*/	
+
+	/*SHOW CASE*/	
+		#showcase
+		{
+			background:url('../images/header.jpg ') no-repeat  0 0 ;
+			min-height:350px;
+			text-align:center;	
+			color: #000000;	
+		}
+		
+		#titre h3
+		{
+			font-size:180%;
+			margin-top:-30px;
+			font-style:italic;
+			font-weight:bold;
+			font-family:serif   ;
+		}
+		
+		#titre
+		{
+			
+			margin-top:30px;
+		}
+		#titre img 
+		{
+			width:80%;
+			height:10%;
+		}
+		
+		
+
+	/* /SHOWCASE */
+
+	/*MENU*/
+	
+	#menu
+	{
+		background-color: #000000 ;
+		height: 50px	;
+	}
+		#menu a 
+		{
+		color: #d3bc3b;
+		text-decoration:none;
+		text-transform:uppercase;
+		font-size:120%;
+
+		font-weight: 500 ;
+		text-align:center;
+
+		}
+		
+		#menu nav
+		{
+			padding: 10px 0px 10px 0px;
+		}
+		
+		#menu ul
+		{
+			margin: 0px 100px 0px 150px;
+			padding:0;
+			text-align:center;
+		}
+		
+		#menu li
+		{
+			float:left;
+			display:inline;
+			/*padding: top right bottom left*/
+			padding : 0 30px 0 30px ;
+		}
+
+		#menu a:hover , #menu .courante a:hover
+		{
+			color:#ffcc00;
+		    font-weight:bold;
+		}
+		#menu .courante a
+		{
+			color:#ace600;
+			font-weight:bold;
+		}
+	/* /MENU */
+	
+	/* FOOTER */
+		#pied
+		{
+			color: #d3bc3b;
+			background-color:#000000;
+			text-align: center;
+			margin-bottom:-20px;
+		}
+	/* /FOOTER */
+	/*============================================================
+							HEADER
+	==============================================================*/
+
+	
+/*============================================================
+						ACCUEIL
+==============================================================*/
+
+#cit1{
+	width : 60% ; 
+	padding : 15px ;
+	border:#b68484 solid 2px;	
+	border-radius: 25px;
+	font-size: 25px ;
+	font-family: Georgia , 'Times New Roman', Times, serif;
+	float : left ;
+
+}
+#photo1{
+	float : left ; 
+	width : 30%;
+}
+#cit2{
+	clear : both ;
+	width : 40% ; 
+	padding : 15px ;
+	border:#b68484 solid 2px;	
+	border-radius: 25px;
+	font-size: 25px ;
+	font-family: Georgia;
+
+}
+#cit3{
+	width : 60% ; 
+	padding : 15px ;
+	border:#b68484 solid 2px;	
+	border-radius: 25px;
+	font-size: 25px ;
+	font-family: Georgia;
+
+}
+#cit4{
+	width : 60% ; 
+	padding : 15px ;
+	border:#b68484 solid 2px;	
+	border-radius: 25px;
+	font-size: 25px ;
+	font-family: Georgia;
+
+}
+#cit5{
+	width : 60% ; 
+	padding : 15px ;
+	border:#b68484 solid 2px;	
+	border-radius: 25px;
+	font-size: 25px ;
+	font-family: Georgia;
+
+}
+#cit6{
+	width : 60% ; 
+	padding : 15px ;
+	border:#b68484 solid 2px;	
+	border-radius: 25px;
+	font-size: 25px ;
+	font-family: Georgia;
+
+}
+
+
+/*============================================================
+						/ACCUEIL
+==============================================================*/
+
+/*============================================================
+						BIOGRAPHIE
+==============================================================*/
+
+
+#biographie_body 
+{
+	background-color: #ffeb99;
+}
+
+#accueil_body 
+{
+	background-color: #ffeb99;
+}
+
+#main
+{
+	padding:10px;
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+  }
+
+  .italique{
+	font-style: italic ;
+
+}
+h1{
+	margin : 5px ;
+	color : #885353; 
+}
+
+hr{
+	height: 2px;  
+	background-color: rgb(238, 119, 50); 
+
+}
+
+
+ /* Articles */
+ article#article1{
+	float:left;
+	width:65%;
+	margin:15px;
+	padding : 10px;
+
+  }
+
+  article#article2{
+	float:left;
+	width:65%;
+	margin:15px;
+	padding : 10px;
+
+  }
+  article#article3{
+
+	float:left;
+	width : 95%;
+	margin-left:10px;
+	margin-right:10px;
+
+
+  }
+
+  article#article4{
+
+	float:left;
+	width : 95%;
+	margin:10px;
+	padding : 10px;
+
+  }
+
+  .para1{
+	margin-top:10px;
+	margin-bottom:10px;
+	padding : 10px ;
+  }
+  .para4{
+	margin-top:10px;
+	margin-bottom:10px;
+	float: left;
+	width : 37%;
+	padding : 10px ;
+  }
+  .para3{
+	margin:5px;
+	float: left;
+	width : 65%;
+  }
+
+
+
+  
+
+  
+/* Images */
+aside 
+{
+	border:#b68484 solid 0.5px;	
+	border-radius: 25px;
+
+}
+
+aside#aside1{
+	float:left;
+	width:30%;
+	margin-top:20px;
+	text-align: center;
+	font-size: 14px ;
+	
+  }
+
+  aside#aside2{
+	float:left;
+	width:35%;
+	margin:10px;
+	font-size: 14px ;
+	text-align: center;
+	
+ 
+}
+aside#aside3{
+	float:left;
+	width:30%;
+	font-size: 14px ;
+	text-align: center;
+	
+
+	
+ 
+}
+
+aside.aside4{
+	float:left;
+	width:30%;
+	font-size: 14px ;
+	text-align: center;
+}
+aside#aside5{
+	float:left;
+	width:30%;
+	font-size: 14px ;
+	text-align: center;
+}
+
+aside#aside6{
+	float:left;
+	width:30%;
+	margin-top:20px;
+	text-align: center;
+	font-size: 14px ;
+	margin-top : 70px ;
+  }
+p#image1
+{
+	
+	padding : 10px;
+}
+
+
+
+.deco{
+	width : 600px ;
+	text-align: center ;
+	margin-left : 250px ;
+}
+
+img{
+	width : 300px ;
+}
+
+.tof
+{
+	height:314px ;
+	width : 235px ;
+	padding  :10px;
+}
+
+.tof1
+{
+	height:235px ;
+	width : 250px ;
+	padding  :10px ;
+}
+
+.tof2
+{
+	height:314px ;
+	width : 235px ;
+	padding  :10px;
+	margin-bottom: 0;
+	
+
+}
+.tof3
+{
+	height:314px ;
+	width : 270px ;
+	padding  :10px;
+	margin-bottom: 0;
+}
+
+
+/*============================================================
+						/BIOGRAPHIE
+==============================================================*/
+
+
+/*============================================================
+						/FOOTER
+==============================================================*/
+
+
+footer{
+	background-color: #000000 ;
+	height: 50px;
+	color :#d3bc3b ;
+	text-align: center ;
+
+}
+
+
+

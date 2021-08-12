@@ -1,0 +1,886 @@
+
+/*============================================================
+						LAYOUT (GLOBAL)
+==============================================================*/
+/*bordures pédagogiques*/
+/*.invention img  , article , aside  ,  h4 , p , li , nav , ul , header ,*/ div
+{
+
+}	
+
+article
+{
+	margin: 10px 0 10px 0 ;
+
+}
+
+body
+{
+	font-family: Times, 'Times New Roman', serif;
+	font-size:15px;
+	line-height:1.5;
+	/*font: 15px/1.5 Arial, Hevetica, sans-serif;*/
+	padding: 0;
+	margin: 0;
+}
+
+	.bloque
+	{
+		/*relative width*/
+		width: 90%;
+		/*Container moved to the middle*/
+		margin:auto; 	
+		overflow:hidden;
+		text-align: center;
+	}
+	
+	#entete
+	{
+		margin-top : -30px ;
+	}
+	
+	/*============================================================
+							HEADER
+	==============================================================*/	
+
+	/*SHOW CASE*/	
+		#showcase
+		{
+			background:url('../images/header.jpg ') no-repeat  0 0 ;
+			min-height:350px;
+			text-align:center;	
+			color: #000000;	
+		}
+		
+		#titre h3
+		{
+			font-size:220%;
+			margin-top:-30px;
+			font-style:italic;
+			font-weight:bold;
+			font-family:serif   ;
+		}
+		
+		#titre
+		{
+			
+			margin-top:30px;
+		}
+		#titre img 
+		{
+			width:80%;
+			height:10%;
+		}
+		
+		
+
+	/* /SHOWCASE */
+
+	/*MENU*/
+	
+	#menu
+	{
+		background-color: #000000 ;
+		height: 50px	;
+	}
+		#menu a 
+		{
+		color: #d3bc3b;
+		text-decoration:none;
+		text-transform:uppercase;
+		font-size:120%;
+
+		font-weight: 500 ;
+		text-align:center;
+
+		}
+		
+		#menu nav
+		{
+			padding: 10px 0px 10px 0px;
+		}
+		
+		#menu ul
+		{
+			margin: 0px 100px 0px 150px;
+			padding:0;
+			text-align:center;
+		}
+		
+		#menu li
+		{
+			float:left;
+			display:inline;
+			/*padding: top right bottom left*/
+			padding : 0 30px 0 30px ;
+		}
+
+		#menu a:hover , #menu .courante a:hover
+		{
+			color:#ffcc00;
+		    font-weight:bold;
+		}
+		#menu .courante a
+		{
+			color:#ace600;
+			font-weight:bold;
+		}
+	/* /MENU */
+	
+	/* FOOTER */
+		#pied
+		{
+			color: #d3bc3b;
+			background-color:#000000;
+			text-align: center;
+			margin-bottom:-20px;
+		}
+	/* /FOOTER */
+	/*============================================================
+							HEADER
+	==============================================================*/
+
+
+/*============================================================
+						/LAYOUT
+==============================================================*/
+
+
+	
+/*============================================================
+						ACCUEIL
+==============================================================*/
+
+#acceuil_body
+{
+	background-color: #ffeb99;
+
+}
+
+#conteneur
+{
+	margin-bottom:100px;;
+}
+
+#introduction
+{
+	text-align: center ;
+	
+}
+
+div#citation
+{
+	margin-top:-130px;
+}
+
+#citation h2
+{
+	text-align:center;
+	margin-top:10%;
+	font-family:serif;
+	font-style:italic;
+	font-size:240%;
+}
+.quote	{
+	width : 100% ; 
+	/*border:#b68484 solid 2px;*/	
+	border-radius: 25px;
+	font-family: Georgia , 'Times New Roman', Times, serif;
+
+	
+
+}
+
+.quote .citation
+{
+	font-size: 21px ;
+}
+
+
+#partie1
+{	
+	padding:0 0 0 0;
+	width:30%;
+	float:left;
+}
+
+#photo1 #ed1{
+ 
+	width : 100%;
+	margin-top:120px;
+
+}
+#photo1
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 22%;
+
+}
+
+#partie2
+{
+	padding:0 0 0 0;
+	width:30%;
+	float:right;
+	margin-top:-480px;
+}
+
+#cit2
+{
+	margin-top:20px;
+	
+}
+#cit3
+{
+	margin-top:20px;
+}	
+.qotes
+{
+    font-size: 95px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 3rem;
+    box-sizing: border-box;
+    text-align: center;
+	margin-left:45%;
+	margin-bottom:20%;
+	
+
+}
+
+.citation 
+{
+
+    margin-right: 2rem;
+	margin-left: 2rem;
+	margin-top:-15px;
+	padding-bottom: 1rem;
+    font-size: 1em;
+    line-height: 2rem;
+    font-style: italic;
+    text-align: center;
+
+}
+
+.description
+{
+	margin-top:-40px;
+	margin-right: 2rem;
+	margin-left: 1rem;
+}
+.description .theme
+{
+	margin-right: 2rem;
+	margin-left: 2rem;
+
+    font-size: 0.9rem;
+    padding: 5px 10px;
+    height: 1.6rem;
+    line-height: 100%;
+    background-color: #105cfb;
+
+    color: #fff;
+    letter-spacing: .0025rem;
+    font-family: Arila 	sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-style: normal;
+
+	
+}
+.description .auteur
+{
+	margin-left:-30px;
+	font-weight: 700;
+    font-style: normal;
+	font-family: "Proxima Nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 16px;
+    line-height: 1.42857;
+	transform: translateX(-18px);
+    height: 1px;
+    top: 9px;
+}
+
+.description .profession
+{
+	font-family: "Proxima Nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 1.42857;
+}
+
+#citation
+{
+	margin:auto;
+	width:100%;	
+}
+
+/* Site Map*/
+
+#sitemap
+{
+	margin-top:200px;
+}
+
+#biographie
+{
+	float:left;
+}
+
+#inventions
+{
+
+	float:right;
+}
+.box 
+{
+	width:550px;
+	height:480px;
+}
+.box h1
+{
+	font-size:32px;
+	font-family:serif;
+	font-style:italic;
+}
+
+.box *
+{
+	border-radius:50%;
+}
+  .right ,  .left     
+{
+		width:120px;
+		height:300px;
+}
+
+.up 
+{
+	 width:500px;
+	 height:136px;
+}
+.left  a  ,   .up  a ,  .right  a ,
+.left  div  ,   .up  div ,  .right  div  
+{
+	width:120px;
+	height:136px;
+}	
+
+
+
+.center
+{
+	width:250px;
+	display: block;
+	float:left;
+}
+.center .thom div , .center a 
+{
+	width:250px;
+	height:284px;
+}
+
+ .up a
+{
+	float:left;
+	
+}
+
+.left 
+{
+	float:left;
+}
+
+  .right
+{
+	float:left;
+}
+
+.left a    , .right a  , .center a 
+{
+	margin: 1px 1px 1px 1px ;
+}
+.up a
+{
+	margin-left:2px;
+	margin-right:2px;
+}
+
+/*Sans Hover*/
+#bulle1
+{
+	background:url(../images/Enfance.jpg);
+}
+
+#bulle2
+{
+	background:url(../images/EmployeTelegraphiste.jpg);
+}
+
+#bulle3
+{
+	background:url(../images/patron.jpg);
+}
+
+#bulle4
+{
+	background:url(../images/VilleDeFamille.jpg) -12px;
+}
+
+#bulle5
+{
+	background:url(../images/QuiEtaitThomasEdison.jpeg);
+}
+
+#bulle6
+{
+	background:url(../images/HistoriquedansIndustrie.jpg);
+}
+
+#bulle7
+{
+	background:url(../images/lampe.jpg)  -19px;
+}
+
+#bulle8
+{
+	background:url(../images/phono.png);
+}
+
+#bulle9
+{
+	background:url(../images/kinetogo.png) -12px;
+}
+
+#bulle10
+{
+	background:url(../images/Kinetosco.jpg)  -35px ;
+}
+
+#bulle11
+{
+	background:url(../images/movie.gif);
+}
+
+#bulle12
+{
+	background:url(../images/teleg.jpg) -52px;
+}
+
+#bulle13
+{
+	background:url(../images/CentralElectrique.jpg);
+}
+
+#bulle14
+{
+	background:url(../images/cinoche.jpg)  -50px;
+}
+
+/*Avec Hover*/
+.bulle:hover
+{
+	border:solid #cc5200 5px;
+}
+
+/* /Site Map*/
+/*============================================================
+						/ACCUEIL
+==============================================================*/
+
+
+/*============================================================
+						INVENTIONS(MAIN)
+==============================================================*/
+
+/*MAIN BACKGROUND*/
+
+
+#inventions_body
+{
+	background-color: #ffeb99;
+
+}
+
+/*SOMMARE*/
+section#main_inventions header  nav
+{
+	padding:2%;
+
+}
+#titre_sommaire 
+{
+	font-family : serif ;
+	font-style: italic ;
+	font-size: 160%;
+}
+
+#sommaire
+{
+	background-color: #ffbf80 ;
+	width:85%;
+	padding: 0 0 0 0 ;
+	border-radius:30px;
+	
+}
+
+#sommaire ul
+{
+	
+	margin: 0px 0px 0px 0px;
+	padding: 0 0 0 0 ;
+	text-align:center;	
+
+}
+#sommaire .invention img
+{
+	width:150px;
+	height:150px;
+	
+}
+#sommaire .invention
+{
+	background-color:#cc4400 ; 
+	width:190px;
+	height:190px;
+	border-radius: 16px;
+	
+
+}
+
+#sommaire a:hover .invention
+{
+	background-color:  #bfff00 ; 
+	
+}
+
+#sommaire a:hover .invention p ,
+#sommaire a:hover .invention h4
+{
+	font-weight: bold ;
+	color : #cc6600 ;
+}
+
+
+#sommaire li 
+{
+	width : 190px;
+	float:left;
+	display:inline;
+	/*margin: top  right bottom left*/
+	margin :  6px  20px   10px    50px;
+	border : #cc0000 solid 8px;
+	border-radius: 25px;
+}
+
+#sommaire h4  
+{
+	margin-top : -5px;
+	
+}
+#sommaire p
+{
+	margin-top : -20px;	
+}
+#sommaire p , #sommaire h4
+{
+	color: #ffcc00;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:100%;
+	
+	font-weight: bold ;
+	text-align:center;
+}
+#sommaire a 
+{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:80%;
+	
+	
+}
+/* /SOMMAIRE */
+
+/*MAIN*/
+section section *
+{
+	margin-top:15px;
+	margin-bottom:15px;
+}
+
+#main_inventions .article_invention , #main_inventions  sidebar
+{
+	display:inline;
+}
+.article_invention
+{
+	width:60%;
+	height:20%;
+	float:left;
+	padding:10px;
+
+}
+.article_invention div 
+{
+	background-color:#ffdd99;
+	padding:10px;
+}
+
+.sidebar
+{
+	width:25%;
+	height:20%;
+	float:right;
+	margin-top:6%;
+
+}
+.sidebar div
+{
+	background-color:#994d00;
+	padding:10px;
+	border-radius:80px;
+	color: #cccc00	;
+}
+
+.sidebar img
+{
+	width:200px;
+	height:227px;	
+	
+	
+	margin-right:5px;
+	margin-top:25px;
+	margin-bottom:-20px;
+	border: solid black 3px;	
+	padding: 2px;
+}
+
+
+
+
+.article_invention img 
+{
+	float:left;
+	margin-right:10px;
+	margin-bottom:10px;
+	border: solid black 3px;	
+	padding: 2px;
+	
+	width:300px;
+	height:340px;
+}
+
+.article_invention p
+{
+	text-align:left;
+	font-family:serif;
+	font-size:110%;
+	font-weight:;
+}
+#main_inventions .bloque .bloque h2
+{
+	font-style:italic;
+	font-family: 'Pacifico'	;
+	font-size:160%;
+	text-align:left	;
+	margin-bottom:-2.5%;
+	margin-left:1%;
+}
+
+.date
+{
+	font-family:serif;
+	font-style:italic;
+}
+/* /MAIN */
+
+
+
+/*============================================================
+						/INVENTIONS
+==============================================================*/
+
+
+
+/*============================================================
+						/BIOGRAPHY
+==============================================================*/
+
+.thomas
+{
+	width:350px;
+	height:396px;
+}
+
+/*Photo Ronde */
+.thomas[alt ="Thomas Eddison"]
+{
+	width:400px;
+}
+/*Photo Petit */
+.thomas[alt = "Thomas Edison, enfant"]
+{
+	width:270px;
+	height:310px;
+}
+/*Photo Bogos */
+.thomas[alt = "Thomas Eddison 1"]
+{
+	width:330px;
+	height:396px;
+}
+
+
+/*============================================================
+						/BIOGRAPHY
+==============================================================*/
+
+
+
+/*============================================================
+						CONTRIBUTION
+==============================================================*/
+
+#postcard
+{
+	box-shadow:5px 10px #888888	;
+	margin:auto;
+	width:746px;
+	height:461px;
+	background:url(../images/postcard.jpg) ;
+}
+
+#postcard #formulaire
+{
+	float:left;
+	margin-top:15%;
+}
+
+#postcard #postage
+{
+	float:right;
+	margin-top:5.5%;
+	margin-right:3%;
+}
+
+#postage img
+{
+	width:170px;
+	height:210px;
+}	
+
+#main_contribution div[class = "bloque"]
+{
+	width:70%;
+	margin-bottom:-20px;
+	background:url(../images/content.jpg);
+}
+
+#postcard #paragraphe
+{
+	float:right;
+	margin-top:-14%;
+	margin-left:50%;
+}
+
+#postcard #paragraphe address  , #postcard #paragraphe address  span , #postcard #paragraphe address a
+{
+	float:left;	
+}
+#postcard #paragraphe address a
+{
+
+	color: #000000;
+    border-bottom: 1px dotted #000000;
+    text-decoration: none;
+    font-weight: bold;	
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+#postcard #paragraphe address  span
+{
+	margin-bottom:12%;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-size: 1.1em;
+    line-height: 1.3em;
+}
+
+#postcard #paragraphe  p 
+{
+	margin-top:-1%;
+	float:left;
+	text-align:left;
+}
+#postcard #paragraphe  #question
+{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1em;
+	text-align: left;
+    line-height: 1.3em;
+}
+
+#postcard #paragraphe  #contactus
+{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1em;
+	text-align: left;
+    line-height: 1.3em;
+	font-weight: bold;
+}
+
+#main_contribution h2
+{
+	margin-top:10%;
+	font-family:serif;
+	font-style:italic;
+	font-size:240%;
+}
+
+
+/*============================================================
+						CONTACT
+==============================================================*/
+
+.inputfield {
+	background:none;
+	border:none;
+	border-bottom:1px solid #000000;
+}
+
+.clearfix {
+	clear:both;
+}
+
+#formulaire
+{
+
+	width:355px;
+	height:200px;
+}
+
+#boutonC
+{
+	float : right ;
+	padding-right: 150px;
+
+}
+form
+{
+		margin-top:20px;
+}
+
+/*============================================================
+						/CONTACT
+==============================================================*/
+
+/*============================================================
+						/CONTRIBUTION
+==============================================================*/
+
+
+
+
